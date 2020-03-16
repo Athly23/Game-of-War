@@ -1,4 +1,4 @@
-console.log("hello!");
+
 class Card {
     constructor(suit, rank, score) {
         this.suit = suit
@@ -24,7 +24,16 @@ class Deck {
                } 
            }
            
+           
        }
+
+       shuffle() {
+        for (i = array.length - 1; i > 0; i -= 1) {
+        j = Math.floor(Math.random() * (i + 1))
+        }
+        return this.cards;
+      }
+    
 
 
 
